@@ -75,7 +75,7 @@ rl.question("Enter your choice (1 or 2): ", function (choice) {
         });
 
     } else if (choice === "2") {
-        console.log("Goodbye! 👋");
+        console.log("Goodbye! ");
         rl.close();
     } else {
         console.log("Invalid choice.");
